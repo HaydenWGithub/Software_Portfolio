@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "dcbf7aa8c04243e3be6c899b751fcff54a42376bacf0889bf7f497e3ef1c3dc9"
+    }
+  ],
+  "containerPath" : "/Users/h.flynn/Desktop/work/2nd year/DSP/DSP/Lab05/Lab05.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/h.flynn/Desktop/work/2nd year/DSP/DSP/Lab05/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/h.flynn/Desktop/work/2nd year/DSP/DSP/Lab05/Build/Products",
+      "derivedDataPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData/Lab05-bjemmikztcvrzyfkrocsqrzdjrvd/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData/Lab05-bjemmikztcvrzyfkrocsqrzdjrvd/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/h.flynn/Desktop/work/2nd year/DSP/DSP/Lab05/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
