@@ -1,0 +1,40 @@
+Spike: Spike_No13
+Title: Soldier on Patrol
+
+Author: Hayden Whiteford, 104001272
+
+Goals/Deliverables: [CODE] + [SPIKE REPORT]
+Create a “soldier on patrol” simulation where an agent has two or more high-level FSM modes of behaviour and low- level FSM behaviour. The model must show (minimum)
+(a) High level "patrol" and "attack" modes
+(b) The "patrol" mode must usea FSM to control low-level states so that the agent will visit( seek/arrive?) a number of patrol-path way points.
+(c) The "attack" mode must use a FSM to control low-level fighting states. (Think “shooting”, “reloading” - the
+actual states and transition rules are up to you.)
+
+Technologies, Tools, and Resources used:
+pyglet
+python
+xcode
+…
+
+Tasks undertaken: 
+- created 2 agent modes:
+    - created a Patrol mode, that has the agent patrol four corners of the map, and move in a clockwise pathway. When the agent reaches a point in the path, they go into the lookout mode. When an agent spots an intruder, they go into attack mode.
+        - Patrol mode has three internal states, normal, alert, and high alert that modifies the speed of patrolling, this is dictated by the 'alertness' variable.
+    -lookout mode: the agent simply pauses at the current point in the patrol path, to simulate the agent looking out of a guardpost.
+    - attack mode: when the distance to an intruder is close enough (simulating a field of vision) the agent will choose between a series of low level states ie. each gun mode, rifle, handgun, grenade, rocket. These modes are controlled by the 'frustration' variable and the distance to the target. 
+
+how to use: 
+ - run using terminal 
+ - use the "n" key to spawn in a wandering intruder
+ - watch the agent switch between each state and eliminate the intruder!
+
+What we found out:
+ - by creating a set of global variables we can control a series of states an fsm can switch between.
+ - gained a better understanding of how the agent's force is calculated, and the variable that are passed between function.
+
+
+Open issues/risks:
+- an issue with the patrol class meant that after eliminating a wandering intruder, the agent would go into the next frame with a nonetype force variable and crash. I could not find out how to fix this locally within the function, so i resorted to using a try except block to catch the error and assign a blank velocity2D object.
+- discovered the Speed() function and attempted to use instead of the velocity for the previous tasks shot prediction issue, but it would not work, so sticking to self.heading 
+
+

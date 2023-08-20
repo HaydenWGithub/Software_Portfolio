@@ -1,0 +1,159 @@
+   1: Player 1 launched 22 (left 83) ships from planet 2 to planet 15
+   1: Player 2 launched 105 (left 0) ships from planet 3 to planet 14
+   2: Player 1 launched 22 (left 66) ships from planet 2 to planet 15
+   2: Player 2 launched 5 (left 0) ships from planet 3 to planet 14
+   3: Player 1 launched 22 (left 49) ships from planet 2 to planet 15
+   3: Player 2 launched 5 (left 0) ships from planet 3 to planet 14
+   3: Player 1 now owns planet 15
+   3: Player 2 now owns planet 14
+   4: Player 1 launched 53 (left 1) ships from planet 2 to planet 10
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+   4: Player 2 launched 83 (left 0) ships from planet 14 to planet 1
+   5: Player 1 launched 4 (left 2) ships from planet 2 to planet 7
+   5: Player 1 launched 10 (left 17) ships from planet 15 to planet 14
+   5: Player 2 launched 10 (left 0) ships from planet 3 to planet 11
+   6: Player 1 launched 4 (left 3) ships from planet 2 to planet 7
+   6: Player 1 launched 35 (left 9) ships from planet 15 to planet 1
+   6: Player 2 launched 20 (left 0) ships from planet 14 to planet 1
+   7: Player 1 launched 4 (left 4) ships from planet 2 to planet 7
+   7: Player 1 launched 5 (left 9) ships from planet 15 to planet 14
+   7: Player 2 launched 10 (left 0) ships from planet 3 to planet 11
+   7: Player 1 now owns planet 10
+   7: Player 1 now owns planet 1
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+   8: Player 1 launched 4 (left 5) ships from planet 2 to planet 7
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+   8: Player 1 launched 10 (left 4) ships from planet 15 to planet 14
+   8: Player 2 launched 10 (left 0) ships from planet 14 to planet 1
+   8: Player 1 now owns planet 14
+Invalid order modified - not enough ships. Max used.
+   9: Player 1 launched 2 (left 0) ships from planet 1 to planet 3
+   9: Player 1 launched 4 (left 6) ships from planet 2 to planet 7
+Invalid order modified - not enough ships. Max used.
+   9: Player 1 launched 1 (left 0) ships from planet 10 to planet 9
+   9: Player 1 launched 4 (left 1) ships from planet 14 to planet 6
+   9: Player 1 launched 4 (left 5) ships from planet 15 to planet 7
+   9: Player 2 launched 10 (left 0) ships from planet 3 to planet 14
+   9: Player 2 now owns planet 1
+  10: Player 1 launched 8 (left 3) ships from planet 2 to planet 1
+Invalid order modified - not enough ships. Max used.
+  10: Player 1 launched 1 (left 0) ships from planet 10 to planet 9
+  10: Player 1 launched 5 (left 1) ships from planet 14 to planet 3
+  10: Player 1 launched 8 (left 2) ships from planet 15 to planet 1
+  10: Player 2 launched 8 (left 0) ships from planet 1 to planet 14
+  10: Player 1 now owns planet 7
+  11: Player 1 launched 2 (left 6) ships from planet 2 to planet 1
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+Invalid order modified - not enough ships. Max used.
+  11: Player 1 launched 1 (left 0) ships from planet 10 to planet 9
+  11: Player 1 launched 2 (left 9) ships from planet 14 to planet 1
+  11: Player 1 launched 2 (left 5) ships from planet 15 to planet 1
+  11: Player 2 launched 10 (left 0) ships from planet 3 to planet 14
+  11: Player 1 defended planet 14
+  11: Player 1 now owns planet 1
+Invalid order modified - not enough ships. Max used.
+  12: Player 1 launched 4 (left 0) ships from planet 1 to planet 3
+  12: Player 1 launched 5 (left 6) ships from planet 2 to planet 3
+  12: Player 1 launched 5 (left 2) ships from planet 7 to planet 3
+Invalid order modified - not enough ships. Max used.
+  12: Player 1 launched 1 (left 0) ships from planet 10 to planet 9
+  12: Player 1 launched 5 (left 1) ships from planet 14 to planet 3
+  12: Player 1 launched 5 (left 5) ships from planet 15 to planet 3
+  12: Player 2 launched 5 (left 0) ships from planet 3 to planet 14
+  12: Player 2 defended planet 3
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+  13: Player 2 defended planet 3
+  13: Player 1 defended planet 14
+  14: Player 1 launched 3 (left 5) ships from planet 1 to planet 3
+  14: Player 1 launched 3 (left 13) ships from planet 2 to planet 3
+  14: Player 1 launched 13 (left 3) ships from planet 7 to planet 18
+Invalid order modified - not enough ships. Max used.
+  14: Player 1 launched 2 (left 0) ships from planet 10 to planet 9
+Invalid order modified - not enough ships. Max used.
+  14: Player 1 launched 1 (left 0) ships from planet 14 to planet 3
+  14: Player 1 launched 3 (left 12) ships from planet 15 to planet 3
+  14: Player 2 launched 3 (left 0) ships from planet 3 to planet 14
+  14: Player 2 defended planet 3
+  14: Player 2 now owns planet 14
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+  15: Player 1 now owns planet 6
+  16: Player 1 launched 5 (left 14) ships from planet 1 to planet 14
+  16: Player 1 launched 5 (left 18) ships from planet 2 to planet 14
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+  16: Player 1 launched 13 (left 4) ships from planet 7 to planet 18
+Invalid order modified - not enough ships. Max used.
+  16: Player 1 launched 2 (left 0) ships from planet 10 to planet 9
+  16: Player 1 launched 5 (left 17) ships from planet 15 to planet 14
+  16: Player 2 launched 5 (left 0) ships from planet 3 to planet 11
+  16: Player 2 defended planet 3
+  17: Player 1 launched 13 (left 3) ships from planet 1 to planet 14
+  17: Player 1 launched 13 (left 10) ships from planet 2 to planet 14
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+  17: Player 1 launched 13 (left 9) ships from planet 15 to planet 14
+  17: Player 2 launched 13 (left 0) ships from planet 14 to planet 1
+  17: Player 2 defended planet 14
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+  18: Player 1 launched 5 (left 1) ships from planet 6 to planet 3
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+Invalid order ignored - no ships to launch.
+  18: Player 2 launched 5 (left 0) ships from planet 3 to planet 11
+  18: Player 1 now owns planet 3
+  18: Player 1 now owns planet 14
+  18: Player 2 now owns planet 1
+  19: Player 1 launched 6 (left 14) ships from planet 2 to planet 1
+Invalid order modified - not enough ships. Max used.
+  19: Player 1 launched 3 (left 0) ships from planet 3 to planet 11
+Invalid order modified - not enough ships. Max used.
+  19: Player 1 launched 4 (left 0) ships from planet 6 to planet 23
+  19: Player 1 launched 6 (left 7) ships from planet 7 to planet 1
+Invalid order modified - not enough ships. Max used.
+  19: Player 1 launched 3 (left 0) ships from planet 10 to planet 9
+  19: Player 1 launched 6 (left 2) ships from planet 14 to planet 1
+  19: Player 1 launched 6 (left 13) ships from planet 15 to planet 1
+  19: Player 2 launched 6 (left 0) ships from planet 1 to planet 14
+  20: Player 1 launched 2 (left 17) ships from planet 2 to planet 1
+  20: Player 1 launched 2 (left 3) ships from planet 3 to planet 1
+  20: Player 1 launched 2 (left 1) ships from planet 6 to planet 1
+  20: Player 1 launched 2 (left 8) ships from planet 7 to planet 1
+Invalid order modified - not enough ships. Max used.
+  20: Player 1 launched 1 (left 0) ships from planet 10 to planet 9
+  20: Player 1 launched 2 (left 10) ships from planet 14 to planet 1
+  20: Player 1 launched 2 (left 16) ships from planet 15 to planet 1
+  20: Player 2 launched 2 (left 0) ships from planet 1 to planet 14
+  20: Player 1 defended planet 14
+  20: Player 1 now owns planet 1
+Invalid order modified - not enough ships. Max used.
+  21: Player 1 launched 10 (left 0) ships from planet 1 to planet 11
+  21: Player 1 launched 13 (left 9) ships from planet 2 to planet 18
+Invalid order modified - not enough ships. Max used.
+  21: Player 1 launched 11 (left 0) ships from planet 3 to planet 11
+Invalid order modified - not enough ships. Max used.
+  21: Player 1 launched 4 (left 0) ships from planet 6 to planet 23
+Invalid order modified - not enough ships. Max used.
+  21: Player 1 launched 11 (left 0) ships from planet 7 to planet 22
+Invalid order modified - not enough ships. Max used.
+  21: Player 1 launched 1 (left 0) ships from planet 10 to planet 9
+  21: Player 1 launched 13 (left 9) ships from planet 14 to planet 18
+  21: Player 1 launched 13 (left 8) ships from planet 15 to planet 19
+  21: Player 1 now owns planet 18
+  21: Player 1 defended planet 14

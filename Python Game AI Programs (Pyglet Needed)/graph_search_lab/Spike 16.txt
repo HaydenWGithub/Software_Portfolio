@@ -1,0 +1,43 @@
+Spike: Spike_No16
+Title: navigation with graphs
+
+Author: Hayden Whiteford, 104001272
+
+Goals/Deliverables:
+Create a navigation graph simulation that demonstrates the following
+• A game world that is divided into navigation tiles, and that supports a navigation graph structure.
+• A path-planning system that can create paths for agents, based on the current dynamic environment, using cost-
+based heuristic algorithms.
+• Demonstrate multiple independent moving agent characters (at least four), of different types (at least two), that
+are able to each follow their own independent paths.
+
+…
+
+Tasks undertaken: 
+- took the previous agent/path planning code from past tasks and added it to the graph search code:
+    - this included adding the point2D, vector2D, matrix33, and agent classes
+    - have modified BoxWorld.py to render agents, and also to retrieve the current path as an array of Vector2D points
+    - have added an entirely new "Random" search method to searches.py
+    - modified main.py to add 4 agents, each a different type, using a unique search method
+
+how to use: 
+ - I've been using pyglet 1.5.27, in order for the graph search to work, so download that
+ - run using terminal (or in colaboratory as how I used it)
+ - create whatever layout you want using the number 1-4 and clicking tiles
+ - when layout is complete watch each agent make their way to the point!
+ - notice each type of agent:
+    - SLOW/Blue agent: takes the slowest path using the BFS search method
+    - FASTEST/Red agent: takes the fastest path using the DFS search method
+    - FAST/Orange agent: takes a similar path to FASTEST, but not always the best, using the A* search method
+    - RANDOM/Black agent: using the new Random search method, it usually arrives at the same path as A*, but this isn't quite the same, as the console reaveals it leaves much more open nodes in it's search graph.
+
+ 
+ 
+What we found out:
+ - we can establish the building blocks of ai movement in video games by establishing a strict path planning system, but then traverse that with a less precise method, such as a force and steering based movement to smooth out the path taken.
+ - There are multiple different search methods that evaluate slightly different paths, and some may be more favourable to others in the long run (perhaps dumbing down an AI to give the player a better chance). Search methods like BFS take much longer paths than say A* and DFS, and this may be the difference between "wandering" and "approaching" for an Ai in a real game scenario.
+ 
+ 
+
+
+
