@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "ca81064773bb683db7dd9d5ca135ee535339963fe09d34da6daa2ab9fdf0ec45"
+    }
+  ],
+  "containerPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/24 - Spike - Profiling, Performance and Optimsation/Task24/Task24.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/24 - Spike - Profiling, Performance and Optimsation/Task24/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/24 - Spike - Profiling, Performance and Optimsation/Task24/Build/Products",
+      "derivedDataPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData/Task24-coimamiwzvsiqkbjcydasfqmpoes/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData/Task24-coimamiwzvsiqkbjcydasfqmpoes/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/24 - Spike - Profiling, Performance and Optimsation/Task24/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

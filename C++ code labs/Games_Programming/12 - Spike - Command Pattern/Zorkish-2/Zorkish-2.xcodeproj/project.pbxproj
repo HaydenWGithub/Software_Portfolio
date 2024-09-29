@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD77B93E2AC4312D00F49DD5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B93D2AC4312D00F49DD5 /* main.cpp */; };
+		AD77B95F2AC431A800F49DD5 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9452AC431A700F49DD5 /* Node.cpp */; };
+		AD77B9602AC431A800F49DD5 /* ViewHallofFame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9462AC431A700F49DD5 /* ViewHallofFame.cpp */; };
+		AD77B9612AC431A800F49DD5 /* About.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9482AC431A700F49DD5 /* About.cpp */; };
+		AD77B9622AC431A800F49DD5 /* SelectAdventure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9492AC431A700F49DD5 /* SelectAdventure.cpp */; };
+		AD77B9632AC431A800F49DD5 /* NewHighScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B94B2AC431A700F49DD5 /* NewHighScore.cpp */; };
+		AD77B9652AC431A800F49DD5 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9532AC431A700F49DD5 /* GameState.cpp */; };
+		AD77B9672AC431A800F49DD5 /* GameStateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9562AC431A700F49DD5 /* GameStateManager.cpp */; };
+		AD77B9682AC431A800F49DD5 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9582AC431A700F49DD5 /* Game.cpp */; };
+		AD77B9692AC431A800F49DD5 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9592AC431A700F49DD5 /* MainMenu.cpp */; };
+		AD77B96A2AC431A800F49DD5 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B95B2AC431A700F49DD5 /* Graph.cpp */; };
+		AD77B96B2AC431A800F49DD5 /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B95E2AC431A800F49DD5 /* Help.cpp */; };
+		AD77B9732AC441B700F49DD5 /* CommandManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9722AC441B700F49DD5 /* CommandManager.cpp */; };
+		AD77B9762AC4475D00F49DD5 /* CommandMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9752AC4475D00F49DD5 /* CommandMove.cpp */; };
+		AD77B9782AC453AB00F49DD5 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9772AC453AB00F49DD5 /* Command.cpp */; };
+		AD77B97B2AC578A600F49DD5 /* CommandHelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B97A2AC578A600F49DD5 /* CommandHelp.cpp */; };
+		AD77B97F2AC57D4C00F49DD5 /* CommandInventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B97E2AC57D4C00F49DD5 /* CommandInventory.cpp */; };
+		AD77B9842ACABFD600F49DD5 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9832ACABFD600F49DD5 /* Entity.cpp */; };
+		AD77B9882ACC17AB00F49DD5 /* CommandLook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B9872ACC17AB00F49DD5 /* CommandLook.cpp */; };
+		AD77B98B2ACC252200F49DD5 /* CommandAlias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B98A2ACC252200F49DD5 /* CommandAlias.cpp */; };
+		AD77B9902ACC49D500F49DD5 /* CommandDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD77B98F2ACC49D500F49DD5 /* CommandDebug.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD77B9382AC4312D00F49DD5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD77B93A2AC4312D00F49DD5 /* Zorkish-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Zorkish-2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD77B93D2AC4312D00F49DD5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD77B9442AC431A700F49DD5 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		AD77B9452AC431A700F49DD5 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		AD77B9462AC431A700F49DD5 /* ViewHallofFame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewHallofFame.cpp; sourceTree = "<group>"; };
+		AD77B9472AC431A700F49DD5 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		AD77B9482AC431A700F49DD5 /* About.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = About.cpp; sourceTree = "<group>"; };
+		AD77B9492AC431A700F49DD5 /* SelectAdventure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectAdventure.cpp; sourceTree = "<group>"; };
+		AD77B94A2AC431A700F49DD5 /* NewHighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewHighScore.h; sourceTree = "<group>"; };
+		AD77B94B2AC431A700F49DD5 /* NewHighScore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewHighScore.cpp; sourceTree = "<group>"; };
+		AD77B94C2AC431A700F49DD5 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		AD77B94E2AC431A700F49DD5 /* ViewHallofFame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHallofFame.h; sourceTree = "<group>"; };
+		AD77B9502AC431A700F49DD5 /* GameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateManager.h; sourceTree = "<group>"; };
+		AD77B9512AC431A700F49DD5 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		AD77B9522AC431A700F49DD5 /* SelectAdventure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAdventure.h; sourceTree = "<group>"; };
+		AD77B9532AC431A700F49DD5 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		AD77B9542AC431A700F49DD5 /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		AD77B9562AC431A700F49DD5 /* GameStateManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateManager.cpp; sourceTree = "<group>"; };
+		AD77B9582AC431A700F49DD5 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		AD77B9592AC431A700F49DD5 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		AD77B95A2AC431A700F49DD5 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		AD77B95B2AC431A700F49DD5 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		AD77B95C2AC431A700F49DD5 /* locations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = locations.txt; sourceTree = "<group>"; };
+		AD77B95D2AC431A800F49DD5 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		AD77B95E2AC431A800F49DD5 /* Help.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Help.cpp; sourceTree = "<group>"; };
+		AD77B96E2AC43E4F00F49DD5 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		AD77B96F2AC43F0000F49DD5 /* CommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandManager.h; sourceTree = "<group>"; };
+		AD77B9722AC441B700F49DD5 /* CommandManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandManager.cpp; sourceTree = "<group>"; };
+		AD77B9742AC4453F00F49DD5 /* CommandMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandMove.h; sourceTree = "<group>"; };
+		AD77B9752AC4475D00F49DD5 /* CommandMove.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandMove.cpp; sourceTree = "<group>"; };
+		AD77B9772AC453AB00F49DD5 /* Command.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		AD77B9792AC5786200F49DD5 /* CommandHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandHelp.h; sourceTree = "<group>"; };
+		AD77B97A2AC578A600F49DD5 /* CommandHelp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandHelp.cpp; sourceTree = "<group>"; };
+		AD77B97C2AC57BD500F49DD5 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AD77B97D2AC57C5800F49DD5 /* CommandInventory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandInventory.h; sourceTree = "<group>"; };
+		AD77B97E2AC57D4C00F49DD5 /* CommandInventory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandInventory.cpp; sourceTree = "<group>"; };
+		AD77B9832ACABFD600F49DD5 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		AD77B9852ACAC04200F49DD5 /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		AD77B9862ACC178F00F49DD5 /* CommandLook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandLook.h; sourceTree = "<group>"; };
+		AD77B9872ACC17AB00F49DD5 /* CommandLook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandLook.cpp; sourceTree = "<group>"; };
+		AD77B98A2ACC252200F49DD5 /* CommandAlias.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandAlias.cpp; sourceTree = "<group>"; };
+		AD77B98C2ACC2A0000F49DD5 /* CommandDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandDebug.h; sourceTree = "<group>"; };
+		AD77B98E2ACC332A00F49DD5 /* CommandAlias.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandAlias.h; sourceTree = "<group>"; };
+		AD77B98F2ACC49D500F49DD5 /* CommandDebug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandDebug.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD77B9372AC4312D00F49DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD77B9312AC4312D00F49DD5 = {
+			isa = PBXGroup;
+			children = (
+				AD77B93C2AC4312D00F49DD5 /* Zorkish-2 */,
+				AD77B93B2AC4312D00F49DD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD77B93B2AC4312D00F49DD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD77B93A2AC4312D00F49DD5 /* Zorkish-2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD77B93C2AC4312D00F49DD5 /* Zorkish-2 */ = {
+			isa = PBXGroup;
+			children = (
+				AD77B95C2AC431A700F49DD5 /* locations.txt */,
+				AD77B9482AC431A700F49DD5 /* About.cpp */,
+				AD77B95D2AC431A800F49DD5 /* About.h */,
+				AD77B9582AC431A700F49DD5 /* Game.cpp */,
+				AD77B95A2AC431A700F49DD5 /* Game.h */,
+				AD77B9532AC431A700F49DD5 /* GameState.cpp */,
+				AD77B9472AC431A700F49DD5 /* GameState.h */,
+				AD77B9562AC431A700F49DD5 /* GameStateManager.cpp */,
+				AD77B9502AC431A700F49DD5 /* GameStateManager.h */,
+				AD77B95B2AC431A700F49DD5 /* Graph.cpp */,
+				AD77B9542AC431A700F49DD5 /* Graph.h */,
+				AD77B95E2AC431A800F49DD5 /* Help.cpp */,
+				AD77B9442AC431A700F49DD5 /* Help.h */,
+				AD77B9592AC431A700F49DD5 /* MainMenu.cpp */,
+				AD77B9512AC431A700F49DD5 /* MainMenu.h */,
+				AD77B94B2AC431A700F49DD5 /* NewHighScore.cpp */,
+				AD77B94A2AC431A700F49DD5 /* NewHighScore.h */,
+				AD77B9452AC431A700F49DD5 /* Node.cpp */,
+				AD77B94C2AC431A700F49DD5 /* Node.h */,
+				AD77B9522AC431A700F49DD5 /* SelectAdventure.h */,
+				AD77B9492AC431A700F49DD5 /* SelectAdventure.cpp */,
+				AD77B94E2AC431A700F49DD5 /* ViewHallofFame.h */,
+				AD77B9462AC431A700F49DD5 /* ViewHallofFame.cpp */,
+				AD77B93D2AC4312D00F49DD5 /* main.cpp */,
+				AD77B96E2AC43E4F00F49DD5 /* Command.h */,
+				AD77B9772AC453AB00F49DD5 /* Command.cpp */,
+				AD77B96F2AC43F0000F49DD5 /* CommandManager.h */,
+				AD77B9722AC441B700F49DD5 /* CommandManager.cpp */,
+				AD77B9742AC4453F00F49DD5 /* CommandMove.h */,
+				AD77B9752AC4475D00F49DD5 /* CommandMove.cpp */,
+				AD77B9792AC5786200F49DD5 /* CommandHelp.h */,
+				AD77B97A2AC578A600F49DD5 /* CommandHelp.cpp */,
+				AD77B97C2AC57BD500F49DD5 /* Player.h */,
+				AD77B97D2AC57C5800F49DD5 /* CommandInventory.h */,
+				AD77B97E2AC57D4C00F49DD5 /* CommandInventory.cpp */,
+				AD77B9852ACAC04200F49DD5 /* Entity.h */,
+				AD77B9832ACABFD600F49DD5 /* Entity.cpp */,
+				AD77B9862ACC178F00F49DD5 /* CommandLook.h */,
+				AD77B9872ACC17AB00F49DD5 /* CommandLook.cpp */,
+				AD77B98E2ACC332A00F49DD5 /* CommandAlias.h */,
+				AD77B98A2ACC252200F49DD5 /* CommandAlias.cpp */,
+				AD77B98C2ACC2A0000F49DD5 /* CommandDebug.h */,
+				AD77B98F2ACC49D500F49DD5 /* CommandDebug.cpp */,
+			);
+			path = "Zorkish-2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD77B9392AC4312D00F49DD5 /* Zorkish-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD77B9412AC4312D00F49DD5 /* Build configuration list for PBXNativeTarget "Zorkish-2" */;
+			buildPhases = (
+				AD77B9362AC4312D00F49DD5 /* Sources */,
+				AD77B9372AC4312D00F49DD5 /* Frameworks */,
+				AD77B9382AC4312D00F49DD5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zorkish-2";
+			productName = "Zorkish-2";
+			productReference = AD77B93A2AC4312D00F49DD5 /* Zorkish-2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD77B9322AC4312D00F49DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AD77B9392AC4312D00F49DD5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AD77B9352AC4312D00F49DD5 /* Build configuration list for PBXProject "Zorkish-2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD77B9312AC4312D00F49DD5;
+			productRefGroup = AD77B93B2AC4312D00F49DD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD77B9392AC4312D00F49DD5 /* Zorkish-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD77B9362AC4312D00F49DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD77B93E2AC4312D00F49DD5 /* main.cpp in Sources */,
+				AD77B9652AC431A800F49DD5 /* GameState.cpp in Sources */,
+				AD77B96A2AC431A800F49DD5 /* Graph.cpp in Sources */,
+				AD77B9782AC453AB00F49DD5 /* Command.cpp in Sources */,
+				AD77B9632AC431A800F49DD5 /* NewHighScore.cpp in Sources */,
+				AD77B9622AC431A800F49DD5 /* SelectAdventure.cpp in Sources */,
+				AD77B97F2AC57D4C00F49DD5 /* CommandInventory.cpp in Sources */,
+				AD77B9762AC4475D00F49DD5 /* CommandMove.cpp in Sources */,
+				AD77B96B2AC431A800F49DD5 /* Help.cpp in Sources */,
+				AD77B9612AC431A800F49DD5 /* About.cpp in Sources */,
+				AD77B98B2ACC252200F49DD5 /* CommandAlias.cpp in Sources */,
+				AD77B9842ACABFD600F49DD5 /* Entity.cpp in Sources */,
+				AD77B9602AC431A800F49DD5 /* ViewHallofFame.cpp in Sources */,
+				AD77B9692AC431A800F49DD5 /* MainMenu.cpp in Sources */,
+				AD77B9682AC431A800F49DD5 /* Game.cpp in Sources */,
+				AD77B9732AC441B700F49DD5 /* CommandManager.cpp in Sources */,
+				AD77B95F2AC431A800F49DD5 /* Node.cpp in Sources */,
+				AD77B97B2AC578A600F49DD5 /* CommandHelp.cpp in Sources */,
+				AD77B9672AC431A800F49DD5 /* GameStateManager.cpp in Sources */,
+				AD77B9882ACC17AB00F49DD5 /* CommandLook.cpp in Sources */,
+				AD77B9902ACC49D500F49DD5 /* CommandDebug.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD77B93F2AC4312D00F49DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD77B9402AC4312D00F49DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD77B9422AC4312D00F49DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD77B9432AC4312D00F49DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD77B9352AC4312D00F49DD5 /* Build configuration list for PBXProject "Zorkish-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD77B93F2AC4312D00F49DD5 /* Debug */,
+				AD77B9402AC4312D00F49DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD77B9412AC4312D00F49DD5 /* Build configuration list for PBXNativeTarget "Zorkish-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD77B9422AC4312D00F49DD5 /* Debug */,
+				AD77B9432AC4312D00F49DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD77B9322AC4312D00F49DD5 /* Project object */;
+}

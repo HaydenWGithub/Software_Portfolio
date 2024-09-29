@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5ADE212ADBA6E8005619D2 /* CommandMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADDF62ADBA6E6005619D2 /* CommandMove.cpp */; };
+		AD5ADE222ADBA6E8005619D2 /* SelectAdventure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADDF82ADBA6E6005619D2 /* SelectAdventure.cpp */; };
+		AD5ADE232ADBA6E8005619D2 /* CommandHelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADDF92ADBA6E6005619D2 /* CommandHelp.cpp */; };
+		AD5ADE242ADBA6E8005619D2 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADDFA2ADBA6E6005619D2 /* Game.cpp */; };
+		AD5ADE252ADBA6E8005619D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADDFB2ADBA6E6005619D2 /* main.cpp */; };
+		AD5ADE262ADBA6E8005619D2 /* CommandDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADDFC2ADBA6E7005619D2 /* CommandDebug.cpp */; };
+		AD5ADE272ADBA6E8005619D2 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE002ADBA6E7005619D2 /* Graph.cpp */; };
+		AD5ADE282ADBA6E8005619D2 /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE012ADBA6E7005619D2 /* Help.cpp */; };
+		AD5ADE292ADBA6E8005619D2 /* NewHighScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE042ADBA6E7005619D2 /* NewHighScore.cpp */; };
+		AD5ADE2A2ADBA6E8005619D2 /* CommandLook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE062ADBA6E7005619D2 /* CommandLook.cpp */; };
+		AD5ADE2B2ADBA6E8005619D2 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE0B2ADBA6E7005619D2 /* GameState.cpp */; };
+		AD5ADE2C2ADBA6E8005619D2 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE0C2ADBA6E7005619D2 /* Node.cpp */; };
+		AD5ADE2D2ADBA6E8005619D2 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE102ADBA6E7005619D2 /* MainMenu.cpp */; };
+		AD5ADE2E2ADBA6E8005619D2 /* GameStateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE132ADBA6E7005619D2 /* GameStateManager.cpp */; };
+		AD5ADE2F2ADBA6E8005619D2 /* CommandInventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE142ADBA6E7005619D2 /* CommandInventory.cpp */; };
+		AD5ADE302ADBA6E8005619D2 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE152ADBA6E7005619D2 /* Entity.cpp */; };
+		AD5ADE312ADBA6E8005619D2 /* About.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE182ADBA6E8005619D2 /* About.cpp */; };
+		AD5ADE322ADBA6E8005619D2 /* CommandAlias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE192ADBA6E8005619D2 /* CommandAlias.cpp */; };
+		AD5ADE332ADBA6E8005619D2 /* ViewHallofFame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE1C2ADBA6E8005619D2 /* ViewHallofFame.cpp */; };
+		AD5ADE342ADBA6E8005619D2 /* CommandManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE1F2ADBA6E8005619D2 /* CommandManager.cpp */; };
+		AD5ADE352ADBA6E8005619D2 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE202ADBA6E8005619D2 /* Command.cpp */; };
+		AD5ADE382ADBC8AD005619D2 /* EntitySpecial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE372ADBC8AD005619D2 /* EntitySpecial.cpp */; };
+		AD5ADE3B2ADE8067005619D2 /* CommandTake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE3A2ADE8067005619D2 /* CommandTake.cpp */; };
+		AD5ADE3D2ADEA41E005619D2 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE3C2ADEA41E005619D2 /* Player.cpp */; };
+		AD5ADE402ADEA5F2005619D2 /* CommandUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5ADE3F2ADEA5F2005619D2 /* CommandUse.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD5ADDEA2ADBA665005619D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD5ADDEC2ADBA665005619D2 /* zorkish-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "zorkish-3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5ADDF62ADBA6E6005619D2 /* CommandMove.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandMove.cpp; sourceTree = "<group>"; };
+		AD5ADDF72ADBA6E6005619D2 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		AD5ADDF82ADBA6E6005619D2 /* SelectAdventure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectAdventure.cpp; sourceTree = "<group>"; };
+		AD5ADDF92ADBA6E6005619D2 /* CommandHelp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandHelp.cpp; sourceTree = "<group>"; };
+		AD5ADDFA2ADBA6E6005619D2 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		AD5ADDFB2ADBA6E6005619D2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD5ADDFC2ADBA6E7005619D2 /* CommandDebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandDebug.cpp; sourceTree = "<group>"; };
+		AD5ADDFD2ADBA6E7005619D2 /* CommandMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandMove.h; sourceTree = "<group>"; };
+		AD5ADDFE2ADBA6E7005619D2 /* CommandDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandDebug.h; sourceTree = "<group>"; };
+		AD5ADDFF2ADBA6E7005619D2 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		AD5ADE002ADBA6E7005619D2 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		AD5ADE012ADBA6E7005619D2 /* Help.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Help.cpp; sourceTree = "<group>"; };
+		AD5ADE022ADBA6E7005619D2 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		AD5ADE032ADBA6E7005619D2 /* locations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = locations.txt; sourceTree = "<group>"; };
+		AD5ADE042ADBA6E7005619D2 /* NewHighScore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewHighScore.cpp; sourceTree = "<group>"; };
+		AD5ADE052ADBA6E7005619D2 /* CommandInventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandInventory.h; sourceTree = "<group>"; };
+		AD5ADE062ADBA6E7005619D2 /* CommandLook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandLook.cpp; sourceTree = "<group>"; };
+		AD5ADE072ADBA6E7005619D2 /* GameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateManager.h; sourceTree = "<group>"; };
+		AD5ADE082ADBA6E7005619D2 /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		AD5ADE092ADBA6E7005619D2 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AD5ADE0A2ADBA6E7005619D2 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		AD5ADE0B2ADBA6E7005619D2 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		AD5ADE0C2ADBA6E7005619D2 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		AD5ADE0D2ADBA6E7005619D2 /* CommandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandManager.h; sourceTree = "<group>"; };
+		AD5ADE0E2ADBA6E7005619D2 /* SelectAdventure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAdventure.h; sourceTree = "<group>"; };
+		AD5ADE0F2ADBA6E7005619D2 /* ViewHallofFame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHallofFame.h; sourceTree = "<group>"; };
+		AD5ADE102ADBA6E7005619D2 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		AD5ADE112ADBA6E7005619D2 /* NewHighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewHighScore.h; sourceTree = "<group>"; };
+		AD5ADE122ADBA6E7005619D2 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		AD5ADE132ADBA6E7005619D2 /* GameStateManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateManager.cpp; sourceTree = "<group>"; };
+		AD5ADE142ADBA6E7005619D2 /* CommandInventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandInventory.cpp; sourceTree = "<group>"; };
+		AD5ADE152ADBA6E7005619D2 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		AD5ADE162ADBA6E8005619D2 /* CommandAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandAlias.h; sourceTree = "<group>"; };
+		AD5ADE172ADBA6E8005619D2 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		AD5ADE182ADBA6E8005619D2 /* About.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = About.cpp; sourceTree = "<group>"; };
+		AD5ADE192ADBA6E8005619D2 /* CommandAlias.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandAlias.cpp; sourceTree = "<group>"; };
+		AD5ADE1A2ADBA6E8005619D2 /* CommandLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLook.h; sourceTree = "<group>"; };
+		AD5ADE1B2ADBA6E8005619D2 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		AD5ADE1C2ADBA6E8005619D2 /* ViewHallofFame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewHallofFame.cpp; sourceTree = "<group>"; };
+		AD5ADE1D2ADBA6E8005619D2 /* CommandHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandHelp.h; sourceTree = "<group>"; };
+		AD5ADE1E2ADBA6E8005619D2 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		AD5ADE1F2ADBA6E8005619D2 /* CommandManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandManager.cpp; sourceTree = "<group>"; };
+		AD5ADE202ADBA6E8005619D2 /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		AD5ADE362ADBA71F005619D2 /* EntitySpecial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntitySpecial.h; sourceTree = "<group>"; };
+		AD5ADE372ADBC8AD005619D2 /* EntitySpecial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EntitySpecial.cpp; sourceTree = "<group>"; };
+		AD5ADE392ADE8004005619D2 /* CommandTake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandTake.h; sourceTree = "<group>"; };
+		AD5ADE3A2ADE8067005619D2 /* CommandTake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandTake.cpp; sourceTree = "<group>"; };
+		AD5ADE3C2ADEA41E005619D2 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		AD5ADE3E2ADEA4C1005619D2 /* CommandUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandUse.h; sourceTree = "<group>"; };
+		AD5ADE3F2ADEA5F2005619D2 /* CommandUse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommandUse.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5ADDE92ADBA665005619D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5ADDE32ADBA665005619D2 = {
+			isa = PBXGroup;
+			children = (
+				AD5ADDEE2ADBA665005619D2 /* zorkish-3 */,
+				AD5ADDED2ADBA665005619D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5ADDED2ADBA665005619D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5ADDEC2ADBA665005619D2 /* zorkish-3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5ADDEE2ADBA665005619D2 /* zorkish-3 */ = {
+			isa = PBXGroup;
+			children = (
+				AD5ADE172ADBA6E8005619D2 /* About.h */,
+				AD5ADE182ADBA6E8005619D2 /* About.cpp */,
+				AD5ADDFF2ADBA6E7005619D2 /* Command.h */,
+				AD5ADE202ADBA6E8005619D2 /* Command.cpp */,
+				AD5ADE162ADBA6E8005619D2 /* CommandAlias.h */,
+				AD5ADE192ADBA6E8005619D2 /* CommandAlias.cpp */,
+				AD5ADDFE2ADBA6E7005619D2 /* CommandDebug.h */,
+				AD5ADDFC2ADBA6E7005619D2 /* CommandDebug.cpp */,
+				AD5ADE1D2ADBA6E8005619D2 /* CommandHelp.h */,
+				AD5ADDF92ADBA6E6005619D2 /* CommandHelp.cpp */,
+				AD5ADE052ADBA6E7005619D2 /* CommandInventory.h */,
+				AD5ADE142ADBA6E7005619D2 /* CommandInventory.cpp */,
+				AD5ADE062ADBA6E7005619D2 /* CommandLook.cpp */,
+				AD5ADE1A2ADBA6E8005619D2 /* CommandLook.h */,
+				AD5ADE0D2ADBA6E7005619D2 /* CommandManager.h */,
+				AD5ADE1F2ADBA6E8005619D2 /* CommandManager.cpp */,
+				AD5ADDFD2ADBA6E7005619D2 /* CommandMove.h */,
+				AD5ADDF62ADBA6E6005619D2 /* CommandMove.cpp */,
+				AD5ADE392ADE8004005619D2 /* CommandTake.h */,
+				AD5ADE3A2ADE8067005619D2 /* CommandTake.cpp */,
+				AD5ADE3E2ADEA4C1005619D2 /* CommandUse.h */,
+				AD5ADE3F2ADEA5F2005619D2 /* CommandUse.cpp */,
+				AD5ADDF72ADBA6E6005619D2 /* Entity.h */,
+				AD5ADE152ADBA6E7005619D2 /* Entity.cpp */,
+				AD5ADE362ADBA71F005619D2 /* EntitySpecial.h */,
+				AD5ADE372ADBC8AD005619D2 /* EntitySpecial.cpp */,
+				AD5ADDFA2ADBA6E6005619D2 /* Game.cpp */,
+				AD5ADE0A2ADBA6E7005619D2 /* Game.h */,
+				AD5ADE0B2ADBA6E7005619D2 /* GameState.cpp */,
+				AD5ADE122ADBA6E7005619D2 /* GameState.h */,
+				AD5ADE132ADBA6E7005619D2 /* GameStateManager.cpp */,
+				AD5ADE072ADBA6E7005619D2 /* GameStateManager.h */,
+				AD5ADE002ADBA6E7005619D2 /* Graph.cpp */,
+				AD5ADE082ADBA6E7005619D2 /* Graph.h */,
+				AD5ADE012ADBA6E7005619D2 /* Help.cpp */,
+				AD5ADE022ADBA6E7005619D2 /* Help.h */,
+				AD5ADE032ADBA6E7005619D2 /* locations.txt */,
+				AD5ADDFB2ADBA6E6005619D2 /* main.cpp */,
+				AD5ADE102ADBA6E7005619D2 /* MainMenu.cpp */,
+				AD5ADE1B2ADBA6E8005619D2 /* MainMenu.h */,
+				AD5ADE042ADBA6E7005619D2 /* NewHighScore.cpp */,
+				AD5ADE112ADBA6E7005619D2 /* NewHighScore.h */,
+				AD5ADE0C2ADBA6E7005619D2 /* Node.cpp */,
+				AD5ADE1E2ADBA6E8005619D2 /* Node.h */,
+				AD5ADE092ADBA6E7005619D2 /* Player.h */,
+				AD5ADE3C2ADEA41E005619D2 /* Player.cpp */,
+				AD5ADDF82ADBA6E6005619D2 /* SelectAdventure.cpp */,
+				AD5ADE0E2ADBA6E7005619D2 /* SelectAdventure.h */,
+				AD5ADE1C2ADBA6E8005619D2 /* ViewHallofFame.cpp */,
+				AD5ADE0F2ADBA6E7005619D2 /* ViewHallofFame.h */,
+			);
+			path = "zorkish-3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5ADDEB2ADBA665005619D2 /* zorkish-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5ADDF32ADBA665005619D2 /* Build configuration list for PBXNativeTarget "zorkish-3" */;
+			buildPhases = (
+				AD5ADDE82ADBA665005619D2 /* Sources */,
+				AD5ADDE92ADBA665005619D2 /* Frameworks */,
+				AD5ADDEA2ADBA665005619D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zorkish-3";
+			productName = "zorkish-3";
+			productReference = AD5ADDEC2ADBA665005619D2 /* zorkish-3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5ADDE42ADBA665005619D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AD5ADDEB2ADBA665005619D2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AD5ADDE72ADBA665005619D2 /* Build configuration list for PBXProject "zorkish-3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5ADDE32ADBA665005619D2;
+			productRefGroup = AD5ADDED2ADBA665005619D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5ADDEB2ADBA665005619D2 /* zorkish-3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5ADDE82ADBA665005619D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5ADE2A2ADBA6E8005619D2 /* CommandLook.cpp in Sources */,
+				AD5ADE352ADBA6E8005619D2 /* Command.cpp in Sources */,
+				AD5ADE3B2ADE8067005619D2 /* CommandTake.cpp in Sources */,
+				AD5ADE382ADBC8AD005619D2 /* EntitySpecial.cpp in Sources */,
+				AD5ADE342ADBA6E8005619D2 /* CommandManager.cpp in Sources */,
+				AD5ADE2E2ADBA6E8005619D2 /* GameStateManager.cpp in Sources */,
+				AD5ADE222ADBA6E8005619D2 /* SelectAdventure.cpp in Sources */,
+				AD5ADE2B2ADBA6E8005619D2 /* GameState.cpp in Sources */,
+				AD5ADE3D2ADEA41E005619D2 /* Player.cpp in Sources */,
+				AD5ADE322ADBA6E8005619D2 /* CommandAlias.cpp in Sources */,
+				AD5ADE2C2ADBA6E8005619D2 /* Node.cpp in Sources */,
+				AD5ADE232ADBA6E8005619D2 /* CommandHelp.cpp in Sources */,
+				AD5ADE282ADBA6E8005619D2 /* Help.cpp in Sources */,
+				AD5ADE402ADEA5F2005619D2 /* CommandUse.cpp in Sources */,
+				AD5ADE272ADBA6E8005619D2 /* Graph.cpp in Sources */,
+				AD5ADE302ADBA6E8005619D2 /* Entity.cpp in Sources */,
+				AD5ADE2F2ADBA6E8005619D2 /* CommandInventory.cpp in Sources */,
+				AD5ADE312ADBA6E8005619D2 /* About.cpp in Sources */,
+				AD5ADE212ADBA6E8005619D2 /* CommandMove.cpp in Sources */,
+				AD5ADE252ADBA6E8005619D2 /* main.cpp in Sources */,
+				AD5ADE2D2ADBA6E8005619D2 /* MainMenu.cpp in Sources */,
+				AD5ADE242ADBA6E8005619D2 /* Game.cpp in Sources */,
+				AD5ADE292ADBA6E8005619D2 /* NewHighScore.cpp in Sources */,
+				AD5ADE332ADBA6E8005619D2 /* ViewHallofFame.cpp in Sources */,
+				AD5ADE262ADBA6E8005619D2 /* CommandDebug.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD5ADDF12ADBA665005619D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD5ADDF22ADBA665005619D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD5ADDF42ADBA665005619D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD5ADDF52ADBA665005619D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5ADDE72ADBA665005619D2 /* Build configuration list for PBXProject "zorkish-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5ADDF12ADBA665005619D2 /* Debug */,
+				AD5ADDF22ADBA665005619D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5ADDF32ADBA665005619D2 /* Build configuration list for PBXNativeTarget "zorkish-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5ADDF42ADBA665005619D2 /* Debug */,
+				AD5ADDF52ADBA665005619D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5ADDE42ADBA665005619D2 /* Project object */;
+}

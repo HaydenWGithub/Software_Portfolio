@@ -1,0 +1,18 @@
+Location: Home
+Description: This is your cozy home. there is a forest north of the house, and a cave south of it.
+Connections: Forest, Cave
+Entities: Chair : This is a Chair., Shoe : This is a white shoe.
+Mappings: North : Forest, East : Cave
+Location: Forest
+Description: This is your cozy forest.
+Connections: Home, Cave
+Entities: Stick : This is a stick., Leaf : This is a leaf.
+Mappings: East : Cave, South : Home
+Location: Cave
+Description: This is your cozy cave.
+Connections: Forest, Home
+Entities: Rock : This is a rock., Coal : This is a lump of coal., *Chest : This is a chest., *Key : This is a Key, *Potion : this is a poisonous potion.
+Mappings: West : Home, North : Forest
+*Chest: Attributes{isLocked = !True, __Key = ^Key, Holding = #1} Actions{}, ContainedEntities{Coin : This is a Coin.}
+*Key: Attributes{__Chest, ^Chest}, Actions{Use: isLocked = !False}, ContainedEntities{}
+*Potion: Attributes{isFull = !True}, Actions{Use: Health = -1}, ContainedEntities{}

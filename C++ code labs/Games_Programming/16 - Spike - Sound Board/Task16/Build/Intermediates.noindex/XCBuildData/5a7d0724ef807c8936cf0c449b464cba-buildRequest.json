@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "08902f061a2baad5eb27a2d6a7417e23abff70e9f7a1dece7cc96ffdbf1e5751"
+    }
+  ],
+  "containerPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/16 - Spike - Sound Board/Task16/Task16.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/16 - Spike - Sound Board/Task16/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/16 - Spike - Sound Board/Task16/Build/Products",
+      "derivedDataPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData/Task16-anneimckazesscblyryfmrqdgrgr/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/h.flynn/Library/Developer/Xcode/DerivedData/Task16-anneimckazesscblyryfmrqdgrgr/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/h.flynn/Desktop/work/2nd_year/Games_Programming/COS30031-2023-104001272/16 - Spike - Sound Board/Task16/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

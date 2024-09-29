@@ -1,0 +1,21 @@
+
+//||||PLAN||||
+/*
+ 
+ - create a 2d array to reprisent the grid, use a vector containing character vectors
+ - use a for loop to iterate through and print it to the console
+ 
+ - create a variable to store the player position
+ 
+ - if the player position matches the position of an interactable (death or gold), output accordingly
+ 
+ -will be looking at creating a few functions, notably:
+    - render() - print the board using a for loop, might want to display the player position as well eg. P
+    - update() - update player position based on input from main, check position with interactables
+    - something else to check what directions the player can move?
+ - will call these function inside a loop in main
+ 
+ 
+ 
+ 
+ */

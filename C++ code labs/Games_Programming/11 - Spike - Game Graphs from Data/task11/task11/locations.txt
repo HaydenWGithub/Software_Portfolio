@@ -1,0 +1,9 @@
+Location: Home
+Description: This is your cozy home.
+Connections: Forest, Cave
+Location: Forest
+Description: This is your cozy forest.
+Connections: Home, Cave
+Location: Cave
+Description: This is your cozy cave.
+Connections: Forest, Home
